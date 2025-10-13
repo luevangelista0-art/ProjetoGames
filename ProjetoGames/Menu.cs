@@ -16,15 +16,5 @@ namespace ProjetoGames
         {
             InitializeComponent();
         }
-
-        private void lblValorPagar_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtValorOpcionais_TextChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }
