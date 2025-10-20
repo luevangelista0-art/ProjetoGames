@@ -192,6 +192,7 @@
             this.btnCalcular.TabIndex = 10;
             this.btnCalcular.Text = "CALCULAR";
             this.btnCalcular.UseVisualStyleBackColor = false;
+            this.btnCalcular.Click += new System.EventHandler(this.btnCalcular_Click_1);
             // 
             // btnSalvar
             // 
@@ -202,6 +203,7 @@
             this.btnSalvar.TabIndex = 11;
             this.btnSalvar.Text = "SALVAR";
             this.btnSalvar.UseVisualStyleBackColor = false;
+            this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click_1);
             // 
             // btnSair
             // 
@@ -233,6 +235,7 @@
             this.Controls.Add(this.lblValorJogo);
             this.Name = "Pedido";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Pedido_Load);
             this.grpOpcionais.ResumeLayout(false);
             this.grpOpcionais.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvPedido)).EndInit();
